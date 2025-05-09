@@ -171,7 +171,7 @@ void printPolynomial(double poly[], int degree) {
  * Using too many entries will make the output osciliate.
  * This is a known issue with Lagrange interpolation or any polynomial interpolation.
  * The more points you use, the more oscillation you get.
- * This is called Runge's phenomenon.
+ * This is called Runge's phenomenon
  */
 int read_csv_data(const char *filename, double year[], double population[], double percentage[]) {
     FILE *fp = fopen(filename, "r");
